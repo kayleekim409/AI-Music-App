@@ -1,0 +1,18 @@
+body {
+    background-image: url("music-background.jpg");
+    background-size: cover;
+}
+.heading {
+    padding: 150px;
+    width: 100%;
+}
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+canvas {
+    width: 350px;
+    height: 350px;
+    border-width: 10px;
+    border-style: groove;
+}
