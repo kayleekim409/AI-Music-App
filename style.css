@@ -11,8 +11,8 @@ body {
     font-weight: bold;
 }
 canvas {
-    width: 350px;
-    height: 350px;
-    border-width: 10px;
-    border-style: groove;
+    border-width: 5px;
+    border-radius: 30%;
+    border-color: black;
+    border-style: solid;
 }
