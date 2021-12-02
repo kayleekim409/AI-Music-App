@@ -33,6 +33,14 @@ function draw() {
             document.getElementById("songName").innerHTML = "Harry Potter Theme";
         }
     }
+    if(rightWristscore > 0.2) {
+        circle(rightWristX, rightWristY, 20);
+        song1.stop()
+        if(song1 == false) {
+            song2.isPlaying();
+            document.getElementById("songName").innerHTML = "Peter Pan";
+        }
+    }
 }
 function modelLoaded() {
 
